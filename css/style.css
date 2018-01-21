@@ -1,0 +1,122 @@
+
+.titulo{
+	padding: 3%;
+	background-color: #B82120;
+	text-align: center;
+	font-size: comic;
+	border:3px solid black;
+	color:white;
+}
+
+body{
+	margin: 0px;
+	font-family: 'Indie Flower', cursive;
+
+}
+
+.menu{
+	text-align: center;
+}
+
+.menu li{
+	display: inline;
+	font-size: 20px;
+}
+
+.menu a{
+	margin: 1% 3%;
+	background-color: #B82120;
+	color:white;
+	padding: 3%;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	border: 3px solid black;
+	border-radius: 50px;
+}
+
+.tabla{
+	padding: 5%;
+	text-align: justify;
+}
+
+.tabla h3{
+	text-align: left;
+}
+
+.vendido{
+	text-align: center;
+
+}
+
+h2{
+	margin-left: 70px;	
+}
+
+h1{
+	font-family: 'Shojumaru', cursive;
+}
+
+.footer{
+	background: #B82120;
+	padding: 2%;
+	border: 3px solid black;
+	text-align: right;
+}
+
+.footer li{
+	display: inline;
+}
+
+.footer a{
+	margin:1% 3%;
+}
+
+.otro{
+	margin-right: 150px;
+	color: white;
+}
+
+.hecho{
+	float: left;
+	color: white;
+	margin-top: 45px;
+}
+
+.justificado{
+	text-align: justify;
+}
+
+@media only screen and (max-width: 760px){
+	.menu{	
+		width: 100%; 
+	}
+	
+	
+}
+
+@media screen and (max-width: 1800px) and (min-width: 992px) {
+	.menu{	
+		width: 100%; 
+	}
+}
+
+@media screen and (max-width: 992px) and (min-width: 600px) {
+	.menu{	
+		width: 90%; 
+	}
+}
+
+@media screen and (max-width: 600px) and (min-width: 400px) {
+	.menu{	
+		width: 80%; 
+	}
+}
+
+@media screen and (max-width: 400px) and (min-width: 0px) {
+	.menu{	
+		width: 80%; 
+	}
+
+
+}
